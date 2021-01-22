@@ -1,5 +1,3 @@
-import copy
-
 def isspanning(tree, startv = 0, visited = None):
     if visited == None:
         visited = [startv]
@@ -13,7 +11,7 @@ def isindependent(ists):
     result = True
     anceses = [None] * 6
     for i in range(6):
-        anceses[i] = copy.deepcopy(collectances(ists[i]))
+        anceses[i] = collectances(ists[i])
     for v in range(1, 20):
         for ti in range(6):
             for tj in range(ti + 1, 6):
@@ -24,7 +22,9 @@ def isindependent(ists):
                     result = False
     return result
 
-def collectances(tree, parent = 0, ances = [[]] * 20):
+def collectances(tree, parent = 0, ances = None):
+    if ances == None:
+        ances = [[]] * 20
     for neighbor in tree[parent]:
         ances[neighbor] = ances[parent] + [parent]
         collectances(tree, parent = neighbor, ances = ances)

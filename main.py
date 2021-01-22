@@ -175,12 +175,12 @@ ists = [
 ]
 
 def main():
-    for i in range(6):
-        print('Is IST_{} spanning? : {}'.format(i, isspanning(ists[i])))
     for ti in range(6):
         ances = collectances(ists[ti])
         for vi in range(20):
             print('Ancestors of vertex {} in IST_{} : {}'.format(vi, ti, ances[vi]))
+    for i in range(6):
+        print('Is IST_{} spanning? : {}'.format(i, isspanning(ists[i])))
     print('Is all ISTs independent? : {}'.format(isindependent(ists)))
 
 if __name__ == '__main__':

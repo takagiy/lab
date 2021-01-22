@@ -72,6 +72,8 @@ def main():
     for i in range(6):
         print('Is IST_{} spanning? : {}'.format(i, isspanning(ists[i])))
     print('Is all ISTs independent? : {}'.format(isindependent(ists)))
+    nedges = countedges(ists)
+    verifynedges(20, 4, 8, nedges)
 
 if __name__ == '__main__':
     main()

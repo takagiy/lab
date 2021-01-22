@@ -30,6 +30,38 @@ def collectances(tree, parent = 0, ances = None):
         collectances(tree, parent = neighbor, ances = ances)
     return ances
 
+def countedges(ists):
+    count = dict()
+    for tree in ists:
+        for u in range(len(ists[0])):
+            for v in tree[u]:
+                if (u, v) in count:
+                    count[u, v] += 1
+                else:
+                    count[u, v] = 1
+    return count
+
+def verifynedges(n, d1, d2, count):
+    for u in range(n):
+        for d in [1, d1, d2, -1, -d1, -d2]:
+            v = (u + d) % n
+            if v < 0:
+                v += n
+            if v == 0:
+                if (u, v) in count:
+                    print('ERROR: Too many edge {} expected zero but found {}'.format((u, v), count[u, v]))
+            elif not (u, v) in count:
+                print('ERROR: Edge {} expected but not found'.format((u, v)))
+            elif count[u, v] != 1:
+                print('ERROR: Too many edge {} expected one but found {}'.format((u, v), count[u, v]))
+            if u == 0:
+                if (v, u) in count:
+                    print('ERROR: Too many edge {} expected zero but found {}'.format((v, u), count[v, u]))
+            elif not (v, u) in count:
+                print('ERROR: Edge {} expected but not found'.format((v, u)))
+            elif count[v, u] != 1:
+                print('ERROR: Too many edge {} expected one but found {}'.format((v, u), count[v, u]))
+
 def main():
     from istset0 import ists
 

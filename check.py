@@ -54,13 +54,6 @@ def verifynedges(n, d1, d2, count):
                 print('ERROR: Edge {} expected but not found'.format((u, v)))
             elif count[u, v] != 1:
                 print('ERROR: Too many edge {} expected one but found {}'.format((u, v), count[u, v]))
-            if u == 0:
-                if (v, u) in count:
-                    print('ERROR: Too many edge {} expected zero but found {}'.format((v, u), count[v, u]))
-            elif not (v, u) in count:
-                print('ERROR: Edge {} expected but not found'.format((v, u)))
-            elif count[v, u] != 1:
-                print('ERROR: Too many edge {} expected one but found {}'.format((v, u), count[v, u]))
 
 def main():
     from istset0 import ists

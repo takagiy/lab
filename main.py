@@ -1,3 +1,5 @@
+import copy
+
 ist0 = [
 # 0 ->
   [1],
@@ -145,7 +147,30 @@ def isspanning(tree, startv = 0, visited = None):
     expected = list(range(20))
     return sorted(visited) == expected
 
-def isindependent(tree):
+def isindependent(ists):
+    result = True
+    anceses = [None] * 6
+    for i in range(6):
+        anceses[i] = copy.deepcopy(collectances(ists[i]))
+    for v in range(1, 20):
+        commonances = \
+            set(anceses[0][v]) & \
+            set(anceses[1][v]) & \
+            set(anceses[2][v]) & \
+            set(anceses[3][v]) & \
+            set(anceses[4][v]) & \
+            set(anceses[5][v])
+        print('Common ancestors for vertex {} : {}'.format(v, commonances))
+        if commonances != {0}:
+            print('NOT INDEPENDENT BECAUSE OF VERTEX {}!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!'.format(v))
+            result = False
+    return result
+
+def collectances(tree, parent = 0, ances = [[]] * 20):
+    for neighbor in tree[parent]:
+        ances[neighbor] = ances[parent] + [parent]
+        collectances(tree, parent = neighbor, ances = ances)
+    return ances
 
 
 ists = [
@@ -156,6 +181,11 @@ ists = [
 def main():
     for i in range(6):
         print('Is IST_{} spanning? : {}'.format(i, isspanning(ists[i])))
+    for ti in range(6):
+        ances = collectances(ists[ti])
+        for vi in range(20):
+            print('Ancestors of vertex {} in IST_{} : {}'.format(vi, ti, ances[vi]))
+    print('Is all ISTs independent? : {}'.format(isindependent(ists)))
 
 if __name__ == '__main__':
     main()

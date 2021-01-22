@@ -55,9 +55,7 @@ def verifynedges(n, d1, d2, count):
             elif count[u, v] != 1:
                 print('ERROR: Too many edge {} expected one but found {}'.format((u, v), count[u, v]))
 
-def main():
-    from istset0 import ists, N, D1, D2
-
+def do_check(N, D1, D2, ists):
     for ti in range(6):
         ances = collectances(ists[ti])
         for vi in range(len(ists[0])):
@@ -69,4 +67,5 @@ def main():
     verifynedges(N, D1, D2, nedges)
 
 if __name__ == '__main__':
-    main()
+    from istset0 import ists, N, D1, D2
+    do_check(N, D1, D2, ists)

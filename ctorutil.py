@@ -1,8 +1,9 @@
-def flipvx(v):
-    return (20 - v) % 20
+def flipvx(n, v):
+    return (n - v) % n
 
 def fliptree(tree):
-    flipped = [None] * 20 
-    for v in range(20):
-        flipped[flipvx(v)] = list(map(flipvx, tree[v]))
+    n = len(tree)
+    flipped = [None] * n 
+    for v in range(n):
+        flipped[flipvx(n, v)] = list(map(lambda u: flipvx(n, u), tree[v]))
     return flipped

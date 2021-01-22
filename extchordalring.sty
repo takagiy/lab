@@ -1,0 +1,124 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{extchordalring}[2020/9/23 v0.3.0]
+\RequirePackage{xparse}
+\RequirePackage{xstring}
+\RequirePackage{trimspaces}
+\RequirePackage{tikz}
+\RequirePackage{listofitems}
+\RequirePackage{pgfkeys}
+\usetikzlibrary{calc}
+
+\DeclareOption{noprefix}{\newcommand\CR{\xcrCR}}
+\ProcessOptions\relax
+
+\NewDocumentCommand\xcrNodeStyle{m}{
+  \tikzset{xcr node/.style={#1}}
+}
+
+\xcrNodeStyle{
+  shape=circle,
+  fill=black,
+}
+
+\def\xcr@new@key#1#2{
+  \pgfkeys{
+    /tikz/.cd,
+    xcr #1/.initial=#2,
+  }
+}
+
+\xcr@new@key{radius}{2}
+
+\tikzset{
+  pics/xcr@CR/.style 2 args={
+    code={
+      \IfSubStr{#1}{,} {
+        \xcr@CR@detail#1\relax#2\relax
+      } {
+        \xcr@CR@detail#1,\relax#2\relax
+      }
+    }
+  }
+}
+
+\NewDocumentCommand\xcrCR{or()o}{
+  \edef\xcr@tikz@options{\xcr@ValueOrEmpty{#1}}
+  \expandafter\pic\expandafter[\xcr@tikz@options]{xcr@CR={#2}{#3}};
+}
+
+\def\xcr@ValueOrEmpty#1{\IfValueT{#1}{#1}}
+
+\def\xcr@CR@detail#1,#2\relax#3\relax{
+  \pgfmathsetmacro{\xcr@before@n}{#1-1}
+  \path let\p1 = (\pgfkeysvalueof{/tikz/xcr radius}, 0)
+        in \pgfextra{
+          \xdef\xcr@rad@tmp{\x1}
+        };
+  \def\xcr@rad{\xcr@rad@tmp}
+  \def\xcr@label@rad{\dimexpr\xcr@rad+.5cm}
+
+  \draw \foreach \xcr@i in {0,...,\xcr@before@n} {
+    (90-\xcr@i*360/#1:\xcr@rad) node[xcr node] (\xcr@i) {}
+    
+    (90-\xcr@i*360/#1:\xcr@label@rad) node {\xcr@i}
+
+    \IfNoValueT{#3} {
+      (\xcr@i) -- ({90-(\xcr@i+1)*360/#1}:\xcr@rad)
+
+      \foreach \xcr@j[
+        evaluate=\xcr@j = \trim@spaces{\xcr@j}
+      ] in {#2} {
+        (\xcr@i) -- ({90-(\xcr@i+\xcr@j)*360/#1}:\xcr@rad)
+      }
+    }
+  };
+  \IfNoValueF{#3} {
+    \foreach \xcr@path@nodes in {#3} {
+      \xcr@draw@edges\xcr@path@nodes\relax
+    }
+  }
+}
+
+\def\xcr@draw@edges#1\relax{
+  \IfSubStr{#1}{adj}
+    {\xcr@connect@neighbors#1\relax}
+    {\xcr@connect@path#1\relax}
+}
+
+\def\xcr@connect@path#1\relax{
+  \xcr@foreachitem \xcr@node \in #1\splitby" " {
+    \ifnum\xcr@nodecnt>1
+      \draw (\xcr@prev@node) -- (\xcr@node);
+    \fi
+    \edef\xcr@prev@node{\xcr@node}
+  }
+}
+
+\def\xcr@connect@neighbors#1\relax{
+  \edef\xcr@args{#1}
+  \expandafter\xcr@connect@neighbors@detail\xcr@args\relax
+}
+
+\def\xcr@connect@neighbors@detail#1adj#2\relax{
+  \xcr@foreachitem \xcr@node \in #2\splitby" " {
+    \draw (\trim@spaces{#1}) -- (\xcr@node);
+  }
+}
+
+\def\xcr@foreachitem#1\in#2\splitby"#3"#4{%
+  \xcr@if@not@empty{#2}%
+    \setsepchar{#3}%
+    \readlist*\xcr@foreachitem@list{#2}%
+    \foreachitem#1\in\xcr@foreachitem@list{%
+      \ifx#1\empty
+      \else
+      #4%
+      \fi
+    }%
+  \fi
+}
+
+\def\xcr@if@not@empty#1{%
+  \edef\xcr@args{\trim@spaces{#1}}%
+  \ifx\xcr@args\empty\else
+}

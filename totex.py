@@ -16,6 +16,7 @@ def treeset(N, ists):
     result += '\\geometry{left=0in, right=0in, top=1in, bottom=0in}\n'
     result += '\\usepackage{tikz}\n'
     result += '\\usepackage{extchordalring}\n'
+    result += '\\tikzset{xcr node/.style={shape = circle, fill = black, minimum size = 3.5pt, inner sep = 0pt}}\n'
     result += '\\begin{document}\n'
     result += '\\begin{center}'
     for i in range(3):

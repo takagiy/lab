@@ -1,0 +1,1161 @@
+====TEST CR(12, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(13, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(14, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(15, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(16, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(17, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(18, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(19, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(20, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(21, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(22, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(23, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(24, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(25, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(26, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(27, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(28, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(29, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(30, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(31, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(32, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(33, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(34, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(35, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(36, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(37, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(38, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(39, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(40, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(41, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(42, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(43, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(44, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(45, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(46, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(47, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(48, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(49, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(50, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(51, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(52, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(53, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(54, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(55, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(56, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(57, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(58, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(59, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(60, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(61, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(62, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(63, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(64, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(65, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(66, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(67, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(68, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(69, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(70, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(71, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(72, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(73, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(74, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(75, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(76, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(77, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(78, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(79, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(80, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(81, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(82, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(83, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(84, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(85, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(86, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(87, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(88, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(89, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(90, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(91, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(92, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(93, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(94, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(95, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(96, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(97, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(98, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(99, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(100, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(101, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(102, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(103, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(104, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(105, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(106, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(107, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(108, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(109, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(110, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(111, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(112, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(113, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(114, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(115, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(116, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(117, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(118, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(119, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(120, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(121, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(122, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(123, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(124, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(125, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(126, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(127, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(128, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(129, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(130, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(131, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(132, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(133, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(134, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(135, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(136, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(137, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(138, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(139, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+====TEST CR(140, 2, 4)====
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+

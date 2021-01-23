@@ -17,8 +17,8 @@ def isindependent(ists):
             for tj in range(ti + 1, 6):
                 commonances = set(anceses[ti][v]) & set(anceses[tj][v])
                 if commonances != {0}:
-                    print('ERRROR: NOT INDEPENDENT BECAUSE OF VERTEX {}!!'.format(v))
-                    print('NOTE:   Common ancestors for vertex {} in IST_{} and IST_{} : {}'.format(v, ti, tj, commonances))
+                    print('ERROR: NOT INDEPENDENT BECAUSE OF VERTEX {}!!'.format(v))
+                    print('NOTE:  Common ancestors for vertex {} in IST_{} and IST_{} : {}'.format(v, ti, tj, commonances))
                     result = False
     return result
 
@@ -55,14 +55,15 @@ def verifynedges(n, d1, d2, count):
             elif count[u, v] != 1:
                 print('ERROR: Too many edge {} expected one but found {}'.format((u, v), count[u, v]))
 
-def do_check(N, D1, D2, ists):
-    for ti in range(6):
-        ances = collectances(ists[ti])
-        for vi in range(len(ists[0])):
-            print('Ancestors of vertex {} in IST_{} : {}'.format(vi, ti, ances[vi]))
+def do_check(N, D1, D2, ists, verbose = False):
+    if verbose:
+        for ti in range(6):
+            ances = collectances(ists[ti])
+            for vi in range(len(ists[0])):
+                print('Ancestors of vertex {} in IST_{} : {}'.format(vi, ti, ances[vi]))
     for i in range(6):
         print('Is IST_{} spanning? : {}'.format(i, isspanning(ists[i])))
-    print('Is all ISTs independent? : {}'.format(isindependent(ists)))
+    print('Are all ISTs independent? : {}'.format(isindependent(ists)))
     nedges = countedges(ists)
     verifynedges(N, D1, D2, nedges)
 

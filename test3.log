@@ -1,0 +1,200 @@
+CR(9, 2, 4)
+Is IST_0 spanning? : True
+Is IST_1 spanning? : False
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : False
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+ERROR: Too many edge (3, 7) expected one but found 2
+ERROR: Too many edge (6, 2) expected one but found 2
+
+CR(10, 2, 4)
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+CR(14, 3, 6)
+Is IST_0 spanning? : True
+Is IST_1 spanning? : False
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : False
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+ERROR: Too many edge (5, 11) expected one but found 2
+ERROR: Too many edge (9, 3) expected one but found 2
+
+CR(15, 3, 6)
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+CR(19, 4, 8)
+Is IST_0 spanning? : True
+Is IST_1 spanning? : False
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : False
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+ERROR: Too many edge (7, 15) expected one but found 2
+ERROR: Too many edge (12, 4) expected one but found 2
+
+CR(20, 4, 8)
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+CR(24, 5, 10)
+Is IST_0 spanning? : True
+Is IST_1 spanning? : False
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : False
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+ERROR: Too many edge (9, 19) expected one but found 2
+ERROR: Too many edge (15, 5) expected one but found 2
+
+CR(25, 5, 10)
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+CR(29, 6, 12)
+Is IST_0 spanning? : True
+Is IST_1 spanning? : False
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : False
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+ERROR: Too many edge (11, 23) expected one but found 2
+ERROR: Too many edge (18, 6) expected one but found 2
+
+CR(30, 6, 12)
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+CR(34, 7, 14)
+Is IST_0 spanning? : True
+Is IST_1 spanning? : False
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : False
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+ERROR: Too many edge (13, 27) expected one but found 2
+ERROR: Too many edge (21, 7) expected one but found 2
+
+CR(35, 7, 14)
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+CR(39, 8, 16)
+Is IST_0 spanning? : True
+Is IST_1 spanning? : False
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : False
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+ERROR: Too many edge (15, 31) expected one but found 2
+ERROR: Too many edge (24, 8) expected one but found 2
+
+CR(40, 8, 16)
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+CR(44, 9, 18)
+Is IST_0 spanning? : True
+Is IST_1 spanning? : False
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : False
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+ERROR: Too many edge (17, 35) expected one but found 2
+ERROR: Too many edge (27, 9) expected one but found 2
+
+CR(45, 9, 18)
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+CR(49, 10, 20)
+Is IST_0 spanning? : True
+Is IST_1 spanning? : False
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : False
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+ERROR: Too many edge (19, 39) expected one but found 2
+ERROR: Too many edge (30, 10) expected one but found 2
+
+CR(50, 10, 20)
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+
+CR(54, 11, 22)
+Is IST_0 spanning? : True
+Is IST_1 spanning? : False
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : False
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+ERROR: Too many edge (21, 43) expected one but found 2
+ERROR: Too many edge (33, 11) expected one but found 2
+
+CR(55, 11, 22)
+Is IST_0 spanning? : True
+Is IST_1 spanning? : True
+Is IST_2 spanning? : True
+Is IST_3 spanning? : True
+Is IST_4 spanning? : True
+Is IST_5 spanning? : True
+Are all ISTs independent? : True
+

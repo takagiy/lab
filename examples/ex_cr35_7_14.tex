@@ -1,0 +1,112 @@
+\documentclass{article}
+\usepackage{geometry}
+\geometry{left=0in, right=0in, top=1in, bottom=0in}
+\usepackage{tikz}
+\usepackage{extchordalring}
+\tikzset{xcr node/.style={shape = circle, fill = black, minimum size = 3.5pt, inner sep = 0pt}}
+\begin{document}
+\begin{center}\begin{tikzpicture}
+  \xcrCR[xcr radius=3](35)[
+    0 adj 1,
+    1 adj 2 8 15 29 22,
+    2 adj 3 9 16 30 23,
+    3 adj 4 10 17 31 24,
+    4 adj 5 11 18 32 25,
+    5 adj 6 12 19 33 26,
+    6 adj 7 13 20 34 27,
+    13 adj 14,
+    20 adj 21,
+    27 adj 28,
+  ]
+\end{tikzpicture}
+\hspace{3cm}\begin{tikzpicture}
+  \xcrCR[xcr radius=3](35)[
+    0 adj 34,
+    8 adj 7,
+    15 adj 14,
+    22 adj 21,
+    29 adj 28 22 15 1 8,
+    30 adj 29 23 16 2 9,
+    31 adj 30 24 17 3 10,
+    32 adj 31 25 18 4 11,
+    33 adj 32 26 19 5 12,
+    34 adj 33 27 20 6 13,
+  ]
+\end{tikzpicture}
+
+\vspace{1cm}
+
+\begin{tikzpicture}
+  \xcrCR[xcr radius=3](35)[
+    0 adj 7,
+    2 adj 1,
+    3 adj 2,
+    4 adj 3,
+    5 adj 4,
+    6 adj 5,
+    7 adj 6 8 14 21 28,
+    8 adj 9 15 22 29,
+    9 adj 10 16 23 30,
+    10 adj 11 17 24 31,
+    11 adj 12 18 25 32,
+    12 adj 13 19 26 33,
+    13 adj 20 27 34,
+  ]
+\end{tikzpicture}
+\hspace{3cm}\begin{tikzpicture}
+  \xcrCR[xcr radius=3](35)[
+    0 adj 28,
+    22 adj 15 8 1,
+    23 adj 22 16 9 2,
+    24 adj 23 17 10 3,
+    25 adj 24 18 11 4,
+    26 adj 25 19 12 5,
+    27 adj 26 20 13 6,
+    28 adj 29 27 21 14 7,
+    29 adj 30,
+    30 adj 31,
+    31 adj 32,
+    32 adj 33,
+    33 adj 34,
+  ]
+\end{tikzpicture}
+
+\vspace{1cm}
+
+\begin{tikzpicture}
+  \xcrCR[xcr radius=3](35)[
+    0 adj 14,
+    8 adj 1,
+    9 adj 2 8,
+    10 adj 3 9,
+    11 adj 4 10,
+    12 adj 5 11,
+    13 adj 6 12,
+    14 adj 28 7 13 15 21,
+    15 adj 29 16 22,
+    16 adj 30 17 23,
+    17 adj 31 18 24,
+    18 adj 32 19 25,
+    19 adj 33 20 26,
+    20 adj 34 27,
+  ]
+\end{tikzpicture}
+\hspace{3cm}\begin{tikzpicture}
+  \xcrCR[xcr radius=3](35)[
+    0 adj 21,
+    15 adj 1 8,
+    16 adj 2 15 9,
+    17 adj 3 16 10,
+    18 adj 4 17 11,
+    19 adj 5 18 12,
+    20 adj 6 19 13,
+    21 adj 7 28 22 20 14,
+    22 adj 29 23,
+    23 adj 30 24,
+    24 adj 31 25,
+    25 adj 32 26,
+    26 adj 33 27,
+    27 adj 34,
+  ]
+\end{tikzpicture}
+\end{center}\end{document}

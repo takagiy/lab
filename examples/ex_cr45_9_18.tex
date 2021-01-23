@@ -1,0 +1,132 @@
+\documentclass{article}
+\usepackage{geometry}
+\geometry{left=0in, right=0in, top=1in, bottom=0in}
+\usepackage{tikz}
+\usepackage{extchordalring}
+\tikzset{xcr node/.style={shape = circle, fill = black, minimum size = 3.5pt, inner sep = 0pt}}
+\begin{document}
+\begin{center}\begin{tikzpicture}
+  \xcrCR[xcr radius=3](45)[
+    0 adj 1,
+    1 adj 2 10 19 37 28,
+    2 adj 3 11 20 38 29,
+    3 adj 4 12 21 39 30,
+    4 adj 5 13 22 40 31,
+    5 adj 6 14 23 41 32,
+    6 adj 7 15 24 42 33,
+    7 adj 8 16 25 43 34,
+    8 adj 9 17 26 44 35,
+    17 adj 18,
+    26 adj 27,
+    35 adj 36,
+  ]
+\end{tikzpicture}
+\hspace{3cm}\begin{tikzpicture}
+  \xcrCR[xcr radius=3](45)[
+    0 adj 44,
+    10 adj 9,
+    19 adj 18,
+    28 adj 27,
+    37 adj 36 28 19 1 10,
+    38 adj 37 29 20 2 11,
+    39 adj 38 30 21 3 12,
+    40 adj 39 31 22 4 13,
+    41 adj 40 32 23 5 14,
+    42 adj 41 33 24 6 15,
+    43 adj 42 34 25 7 16,
+    44 adj 43 35 26 8 17,
+  ]
+\end{tikzpicture}
+
+\vspace{1cm}
+
+\begin{tikzpicture}
+  \xcrCR[xcr radius=3](45)[
+    0 adj 9,
+    2 adj 1,
+    3 adj 2,
+    4 adj 3,
+    5 adj 4,
+    6 adj 5,
+    7 adj 6,
+    8 adj 7,
+    9 adj 8 10 18 27 36,
+    10 adj 11 19 28 37,
+    11 adj 12 20 29 38,
+    12 adj 13 21 30 39,
+    13 adj 14 22 31 40,
+    14 adj 15 23 32 41,
+    15 adj 16 24 33 42,
+    16 adj 17 25 34 43,
+    17 adj 26 35 44,
+  ]
+\end{tikzpicture}
+\hspace{3cm}\begin{tikzpicture}
+  \xcrCR[xcr radius=3](45)[
+    0 adj 36,
+    28 adj 19 10 1,
+    29 adj 28 20 11 2,
+    30 adj 29 21 12 3,
+    31 adj 30 22 13 4,
+    32 adj 31 23 14 5,
+    33 adj 32 24 15 6,
+    34 adj 33 25 16 7,
+    35 adj 34 26 17 8,
+    36 adj 37 35 27 18 9,
+    37 adj 38,
+    38 adj 39,
+    39 adj 40,
+    40 adj 41,
+    41 adj 42,
+    42 adj 43,
+    43 adj 44,
+  ]
+\end{tikzpicture}
+
+\vspace{1cm}
+
+\begin{tikzpicture}
+  \xcrCR[xcr radius=3](45)[
+    0 adj 18,
+    10 adj 1,
+    11 adj 2 10,
+    12 adj 3 11,
+    13 adj 4 12,
+    14 adj 5 13,
+    15 adj 6 14,
+    16 adj 7 15,
+    17 adj 8 16,
+    18 adj 36 9 17 19 27,
+    19 adj 37 20 28,
+    20 adj 38 21 29,
+    21 adj 39 22 30,
+    22 adj 40 23 31,
+    23 adj 41 24 32,
+    24 adj 42 25 33,
+    25 adj 43 26 34,
+    26 adj 44 35,
+  ]
+\end{tikzpicture}
+\hspace{3cm}\begin{tikzpicture}
+  \xcrCR[xcr radius=3](45)[
+    0 adj 27,
+    19 adj 1 10,
+    20 adj 2 19 11,
+    21 adj 3 20 12,
+    22 adj 4 21 13,
+    23 adj 5 22 14,
+    24 adj 6 23 15,
+    25 adj 7 24 16,
+    26 adj 8 25 17,
+    27 adj 9 36 28 26 18,
+    28 adj 37 29,
+    29 adj 38 30,
+    30 adj 39 31,
+    31 adj 40 32,
+    32 adj 41 33,
+    33 adj 42 34,
+    34 adj 43 35,
+    35 adj 44,
+  ]
+\end{tikzpicture}
+\end{center}\end{document}
